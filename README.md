@@ -6,12 +6,15 @@ create the virtual environment using </p>
 ```python -m venv venv```
 
 <p>Then activate virtual environemnt using bash cli</p>
+
 ```source venv/Script/activate```
 
 To be able to run the app, install the dependencies by running
+
 ```pip install -r requirements.txt```
 
 <p>Start the task by running</p>
+
 ```python -m runhuey```
 
 This will connect to the redis which have to be running on your machine.
